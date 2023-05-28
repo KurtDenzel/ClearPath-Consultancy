@@ -17,11 +17,11 @@ We provide our customers with strategic and tactical solutions that improve thei
 <br>
 
 # 💼 Services Offered
-<b> Organizational Development Consultancy </b> 
+<b> - Organizational Development Consultancy </b> 
 <br>
-<b> Training & Human Resource Development </b> 
+<b> - Training & Human Resource Development </b> 
 <br>
-<b> Project Management: Build-Manage-TurnOver </b> 
+<b> - Project Management: Build-Manage-TurnOver </b> 
 
 <br>
 
@@ -43,12 +43,17 @@ We take a practical approach in solving concerns and implementing projects using
 - Measure Results
 
 # 🤝🏼 Our Partners
-<b> Ramiro “ROY” Cruz - President </b>
+<b> - Ramiro “ROY” Cruz - President </b>
 <br>
-<b> Reuben “BENG” Pangan - Managing Director / Principal Consultant </b>
+<b> - Reuben “BENG” Pangan - Managing Director / Principal Consultant </b>
 <br>
-<b> Noel Casanova - Chief Financial Officer</b>
+<b> - Noel Casanova - Chief Financial Officer</b>
 <br>
+
+<br>
+
+# 📎 Summary
+<b> CLEAR PATH CONSULTANCY INTERNATIONAL INC. </b> partners and consultants will treat your company and your objectives as our own and will focus on producing results within agreed timelines and financial parameters. We believe in long-term business relationships and treat your success as ours as well.
 
 <br>
 
@@ -58,4 +63,5 @@ We take a practical approach in solving concerns and implementing projects using
 - <b>Call</b> - +(63) 9175 888075 (Viber); +(63) 9229 222020
 
 <br><br>
-<h3 align="center">© 2023 Clear Path Consulatancy International Inc. All Rights Reserved.</h3>
+<img width="50vh" alt="Banner" src ="https://clearpathconsultancy.netlify.app/images/favicon.png"/></img>
+<h3>© 2023 Clear Path Consulatancy International Inc. All Rights Reserved.</h3>
