@@ -1,3 +1,5 @@
+<img align="center" alt="Banner" src ="https://media.discordapp.net/attachments/839032384606961684/1112277089421377598/Splashscreen_KD.PNG?width=913&height=352"/>
+
 # 💡 Clear Path Consultancy International Inc.
 Providing our customers with strategic and tactical solutions that improve their organizational effectiveness and profitability.
 
