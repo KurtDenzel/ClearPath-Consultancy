@@ -28,7 +28,7 @@ We provide our customers with strategic and tactical solutions that improve thei
 # 🎱 Our Pool of Consultants
 <p align="center">
 We have a pool of former top company executives and managers from the Top 100 Corporations of the Philippines who are considered experts in their respective fields of discipline, from general management, sales and marketing, supply chain management, finance, customer experience management, and other management sciences
-<br>
+<br><br>
 Depending on the clientʼs concerns and budget, we can deploy any number of these consultants as necessary to achieve the desired results of the engagement.
   </p>
 
