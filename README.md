@@ -1,10 +1,9 @@
-<img align="center" alt="Banner" src ="https://media.discordapp.net/attachments/839032384606961684/1112277089421377598/Splashscreen_KD.PNG?width=913&height=352"/>
+<p align=center>
+  <img align="center" alt="Banner" src ="https://media.discordapp.net/attachments/839032384606961684/1112277089421377598/Splashscreen_KD.PNG?width=913&height=352"/>
+</p>
 
 <h1 align="center"> 💡 Clear Path Consultancy International Inc. </h1>
 
-<br>
-
-# 📄 Mission Statement:
 We provide our customers with strategic and tactical solutions that improve their organizational effectiveness and profitability. We do this by leveraging our consultantsʼ expertise and experience across various industries and functions, utilizing analysis of data, training, organization development methods and innovative tech solutions. We commit to deliver measurable value to our customers and help them resolve complex challenges and achieve their business goals.
 
 <br>
@@ -63,5 +62,7 @@ We take a practical approach in solving concerns and implementing projects using
 - <b>Call</b> - +(63) 9175 888075 (Viber); +(63) 9229 222020
 
 <br><br>
-<img width="50vh" alt="Banner" src ="https://clearpathconsultancy.netlify.app/images/favicon.png"/></img>
-<h3>© 2023 Clear Path Consulatancy International Inc. All Rights Reserved.</h3>
+<p align=center>
+  <img width="50vh" alt="Banner" src ="https://clearpathconsultancy.netlify.app/images/favicon.png"/></img>
+  <h3 align=center>© 2023 Clear Path Consulatancy International Inc. All Rights Reserved.</h3>
+</p>
