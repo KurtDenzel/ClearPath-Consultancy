@@ -1,5 +1,5 @@
 <p align=center>
-  <img align="center" alt="Banner" src ="https://media.discordapp.net/attachments/839032384606961684/1112277089421377598/Splashscreen_KD.PNG?width=913&height=352"/>
+  <img align="center" alt="Banner" src ="https://media.discordapp.net/attachments/1064211583686946836/1114868859959263312/BG_KD.PNG?width=913&height=379"/>
 </p>
 
 <h1 align="center"> 💡 Clear Path Consultancy International Inc. </h1>
