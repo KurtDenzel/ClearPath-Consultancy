@@ -61,6 +61,11 @@ We take a practical approach in solving concerns and implementing projects using
 - <b>Reference Material</b> -  <a href="https://clearpathconsultancy.netlify.app/Clear%20Path%20Consultancy%20International%20Inc.pdf">Download</a>
 - <b>Call</b> - +(63) 9175 888075 (Viber); +(63) 9229 222020
 
+
+# ⚡ Performance
+- <b>Page Speed Insight Desktop</b> - <a href="https://pagespeed.web.dev/analysis/https-www-clearpathintl-com/yfqose3bnn?form_factor=desktop">Check the analytics</a>
+- <b>Page Speed Insight Mobile</b> - <a href="https://pagespeed.web.dev/analysis/https-www-clearpathintl-com/yfqose3bnn?form_factor=mobile">Check the analytics</a>
+
 <br><br>
 <p align=center>
   <img width="50vh" alt="Banner" src ="https://clearpathconsultancy.netlify.app/images/favicon.png"/></img>
