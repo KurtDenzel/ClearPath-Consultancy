@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">   
+		<meta name="viewport" content="width=device-width, initial-scale=1">   
     <meta name="keywords" content="Clear Path Consultancy International, Inc.">
     <meta name="description" content="Leveraging Statistical & Tactical Solutions">
     <meta name="revised" content="Clear Path Consultancy, 6/20/2023" />
@@ -13,29 +13,18 @@
     <link rel="icon" type="text/css" href="images/favicon.png">
 
 	
-		<link rel="stylesheet" href="node_modules/bootstrap/css/bootstrap.min.css">
-	
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="node_modules/@popperjs/dist/umd/popper.min.js"></script>
+    
     <!-- Content Delivery Networks -->
-
-    	<!-- Bootstrap -->
-    		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-				
-				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-				
-				<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-				
-				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>				
-			<!-- Bootstrap -->    
-
 			<!-- JQuery	Core -->
 				<script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous" defer></script>
-			<!-- JQuery Core -->
 
+				<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>				
 			<!-- Lazy Loading -->
 				<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" defer></script>
-			<!-- Lazy Loading -->					
-
-    <!-- Content Delivery Networks -->
+    
 
 
     <!-- Download Reference Material Script -->
@@ -43,9 +32,7 @@
 	    function openNewTab() {
 	      window.open('Company Profile.pdf', '_blank');
 	    }
-	  </script>    
-    <!-- Download Reference Material Script -->	  
-
+	  </script>
 
     <!-- External Fonts -->
     	
@@ -63,6 +50,13 @@
 		<!-- Internal Cascading Style Sheet -->
     <style type="text/css">
 
+    .pleasant {
+    	background-color: #F5F5F7;
+    }
+
+    .elegant {
+    	background-color: #FDfCFF;
+    }
 
 		@font-face {
 		  font-family: 'Helvetica Bold';
@@ -101,12 +95,14 @@
 		/*	Screen Responsiveness	*/
 
 
+		/*	Background Colors	*/
+
+
 		/* Custom Shadow */
     .shadow-custom {
-      box-shadow: 0 2px 17px 0 rgba(0, 0, 0, .25), 0 3px 10px 5px rgba(0, 0, 0, 0.05) !important;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .25), 0 3px 5px 5px rgba(0, 0, 0, 0.05) !important;
       border-radius: 15px;
     }
-    /* Custom Shadow */
 
 
 		/* Hovering Image to Enlarge them  */
@@ -121,7 +117,6 @@
 		.image-container:hover img {
 		  transform: scale(1.1); /* Adjust the scale factor to control the level of enlargement */
 		}			
-		/* Hovering Image to Enlarge them  */
 
 
 		/* Hovering Cards to Englarge them  */
@@ -131,8 +126,7 @@
     
     .card:hover {
       transform: scale(1.05);
-    }			
-    /* Hovering Cards to Englarge them  */	
+    }				
 
 
 		/* Hovering Partnerships to Enlarge them in Y Axis */
@@ -143,7 +137,6 @@
     .partners:hover img {
       transform: translateY(-10px);
     }    
-		/* Hovering Partnerships to Enlarge them in Y Axis */ 
 
 
 		/*	Titos Zoom-in Feature	*/		
@@ -159,7 +152,6 @@
 		.titos:hover img {
 			scale: 110%;
 		}
-		/*	Titos Zoom-in Feature	*/
    
     </style>
 		<!-- Internal Cascading Style Sheet -->    
@@ -168,16 +160,19 @@
 
 <body id="page-top">    
 	<!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #1D1D1F; 
+  color: #F5F5F7;">
     <div class="container text-center" style="display: flex; justify-content: center; align-items: center">
       <!-- Left side navigation -->
       <div class="navbar-collapse">
 
-			<img src="images/favicon.png" class="lazyload" alt="Logo" style="width:45px;">				
+      <img src="images/favicon.png" class="lazyload" alt="Logo" style="width:45px;">        
 
-			<a class="navbar-brand" href="#page-top" style="align-items: center; display: flex; justify-content: center">				
-				<h6 style="font-weight: 900;">Clear Path Consultancy International Inc.</h6>
-			</a>	
+      <a class="navbar-brand" href="#page-top" style="align-items: center; display: flex; justify-content: center" >       
+        <h6 style="font-weight: 900; color: #F5F5F7;">Clear Path Consultancy International Inc.</h6>
+      </a>  
 
       </div>
 
@@ -190,38 +185,38 @@
       <!-- Right side navigation -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-				<ul class="nav navbar-nav ms-auto text-captilize">
-					<li class="nav-item" role="presentation">
-						<a class="nav-link js-scroll-trigger" href="#page-home">
-							Home
-						</a>
-					</li>
-					<li class="nav-item" role="presentation">
-						<a class="nav-link js-scroll-trigger" href="#page-objectives">
-							Objectives
-						</a>
-					</li>
-					<li class="nav-item" role="presentation">
-						<a class="nav-link js-scroll-trigger" href="#page-services">
-							Services
-						</a>
-					</li>		
-					<li class="nav-item" role="presentation">
-						<a class="nav-link js-scroll-trigger" href="#page-extra">
-							Extra
-						</a>
-					</li>								
-					<li class="nav-item" role="presentation">
-						<a class="nav-link js-scroll-trigger" href="#page-partners">
-							Partners
-						</a>
-					</li>									
-					<li class="nav-item" role="presentation">
-						<a class="nav-link js-scroll-trigger" href="#page-contacts">
-							Contact
-						</a>
-					</li>			
-				</ul>				        
+        <ul class="nav navbar-nav ms-auto text-captilize">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#page-home">
+              Home
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#page-objectives">
+              Objectives
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#page-services">
+              Services
+            </a>
+          </li>   
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#page-extra">
+              Extra
+            </a>
+          </li>               
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#page-partners">
+              Partners
+            </a>
+          </li>                 
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#page-contacts">
+              Contact
+            </a>
+          </li>     
+        </ul>               
 
       </div>
     </div>
@@ -238,7 +233,7 @@
     background-repeat: no-repeat;
   ">
 
-    <div class="container-fluid jumbotron-heading text-center text-white">        
+    <div class="container-fluid jumbotron-heading text-center" style="color: #F5F5F7">        
     	<div class="row py-3">		
 
     		<!-- Welcome Splash -->
@@ -256,14 +251,12 @@
 		      </h1>
 
 		      Manila • Sydney • New York
+
+					<div class="d-grid gap-3 d-sm-flex justify-content-sm-center py-3">
+            <a class="btn btn-primary btn-md px-4 me-sm-3" href="#page-home">Get Started</a>
+            <a class="btn btn-outline-light btn-md px-4" href="#page-objectives">Learn More</a>
+          </div>		      
 				
-					<div class="py-3">
-						<a role="button" type="button" class="btn btn-light text-dark px-5 border-0" 
-								href="#page-home" style="font-size: 15px; text-decoration: none; color: 
-								black; background-color: #F9FAF9;">
-							Learn more...
-						</a>
-					</div>
 				</div>
 				<!-- Welcome Splash -->
 
@@ -274,446 +267,396 @@
 
 
 <!-- Mission Statement -->
-<div class="container-fluid py-5 px-5" id="page-home" style="background-color: #F9FAF9; padding-top: 100px; padding-bottom: 100px;">
-		
-	<div class="row px-2 text-center">
+<div class="container-fluid py-5">
+	<div class="container d-flex py-5" style="color: #1D1D1F" >
+		<div class="row px-2 text-center d-flex justify-content-center align-items-center" >
 
-		<div class="col-sm text-center pt-5">
-			
-			<img src="images/mission.svg" alt="Mission" class="img-fluid lazyload" style="height: 60px;">
-			<h2 class="pt-3 pb-5 hover-1" style="font-weight: 900; font-size: 45px;">Mission Statement</h2>
-				
-				<p class="px-4 py-5 fs-6" style="text-align: left; background-color: rgba(235, 237, 235, 0.4); border-radius: 15px"> 
-					We provide our customers with strategic and tactical solutions that improve their organizational effectiveness and profitability. We do this by leveraging our consultantsʼ expertise and experience across various industries and functions, utilizing analysis of data, training, organization development methods and innovative tech solutions. 	
+			<div class="col-md pt-5">				
+				<img src="images/mission.svg" alt="Mission" class="img-fluid lazyload" style="height: 60px;">
+					<h2 class="pt-3 pb-5 hover-1" style="font-weight: 900; font-size: 40px;">Mission Statement</h2>
 					
-					We commit to deliver measurable value to our customers and help them resolve complex challenges and achieve their business goals.
-				</p>
+					<p class="px-4 py-3 fs-6" style="text-align: left; border-radius: 15px"> 
+						We provide our customers with strategic and tactical solutions that improve their organizational effectiveness and profitability. We do this by leveraging our consultantsʼ expertise and experience across various industries and functions, utilizing analysis of data, training, organization development methods and innovative tech solutions. 	
+						
+						We commit to deliver measurable value to our customers and help them resolve complex challenges and achieve their business goals.
+					</p>
+			</div>		
 
-		</div>		
+			<div class="col-md partners">
+				<img class="shadow-custom img-fluid lazyload" alt="Mission Slide" src="images/powerpoint/mission.png" style="border-radius: 15px; width: 55vh">
+			</div>
 
-		<div class="col-sm partners" style="display: flex; justify-content: center; align-items: center;">
-			<img class="shadow-custom img-fluid lazyload" alt="Mission Slide" src="images/powerpoint/mission.png" style="border-radius: 15px; width: 55vh">
 		</div>
-
 	</div>
-
 </div>
 <!-- Mission Statement -->
 
 
 <!-- Corporate Objectives -->
-<div class="container-fluid py-5 px-3 d-flex justify-content-center" id="page-objectives" style="background-color: #EBEDEB;">
-	
-	<div class="row">		
-		<div class="col-sm text-center py-2">
-			<h1 style="font-weight: 900;" class="hover-1 pb-4">Corporate Objectives</h1>
+<div class="container-fluid py-5 pleasant" id="page-objectives">
+	<div class="container d-flex py-5" style="color: #1D1D1F">
+		<div class="row px-5 d-flex justify-content-center align-items-center" >
 
-			<!-- Cards -->
-				<div class="album py-5 d-flex justify-content-center" style="text-align: justify; display: flex; justify-content: center; align-items: center">
-				  <div class="container-fluid d-flex justify-content-center">
-				    <div class="row px-3 d-flex justify-content-center">
+			<h2 style="font-weight: 900; font-size: 40px " class="text-center hover-1 pb-5">Corporate Objectives</h2>				
 
-				      <div class="col-md-4" style="width: 364px;">
-				        <div class="card mb-4 border-0 shadow-custom" style="background-color: #f9faf9">         
-				          
-				          <img class="card-img-top img-fluid lazyload" alt="Assistance Slide" src="images/objectives/assistance.jpg">
-				            <div class="card-body">
-				              <h2 style="font-weight: 900;">Assist</h2>
-              					<br>
-					              <p class="card-text text-dark">
-					                To assist our customers in resolving their corporate management concerns by deploying experts in various management fields to analyze and propose appropriate solutions.
-					              </p>
-					              <br>
-				            </div>
+	      <div class="col-md-4 mb-4">
+					<div class="card border-0 shadow-custom">
+					  
+					  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+					    <img class="card-img-top img-fluid lazyload" alt="Assistance Slide" src="images/objectives/assistance.jpg">
+					  </div>
 
-				        </div>
-				      </div>
+					  <div class="card-body">
+					    <h2 class="card-title py-2" style="font-weight: 900">Assist</h2>
+					    <p class="card-text" style="height: 25vh">
+					      To assist our customers in resolving their corporate management concerns by deploying experts in various management fields to analyze and propose appropriate solutions.
+					    </p>
+					  </div>
 
-				      <div class="col-md-4" style="width: 364px">
-				        <div class="card mb-4 border-0 shadow-custom" style="background-color: #f9faf9">         
-				          
-				          <img class="card-img-top img-fluid lazyload" alt="Training Slide" src="images/objectives/training.jpg">
-				            <div class="card-body">
-				              <h2 style="font-weight: 900;">Train</h2>
-              					<br>
-					              <p class="card-text text-dark">
-					                Provide needed training for all levels of our clientsʼ organizations to promote efficiency, enhance productivity and align their personal and corporate goals.
-					              </p>
-				              <br><br>
-				            </div>
+					</div>      	
+	      </div>
+	      
+	      <div class="col-md-4 mb-4">
+					<div class="card border-0 shadow-custom">
 
-				        </div>
-				      </div>
+					  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+					    <img class="card-img-top img-fluid lazyload" alt="Training Slide" src="images/objectives/training.jpg">
+					  </div>
 
-				      <div class="col-md-4" style="width: 364px">
-				        <div class="card mb-4 border-0 shadow-custom" style="background-color: #f9faf9">         
-				          
-				          <img class="card-img-top img-fluid lazyload" alt="Help Slide" src="images/objectives/help.jpg">
-				            <div class="card-body">
-				            	<h2 style="font-weight: 900;">Help</h2>
-         	     					<br>
-					              <p class="card-text text-dark">                
-					                Help our customers map out a strategic blueprint for their companyʼs sustainable future.
-					              </p>
-				              <br><br><br>
-				            </div>
+					  <div class="card-body">
+					    <h2 class="card-title py-2" style="font-weight: 900">Train</h2>
+					    <p class="card-text" style="height: 25vh">
+					      Provide needed training for all levels of our clientsʼ organizations to promote efficiency, enhance productivity and align their personal and corporate goals.
+					    </p>
+					  </div>
 
-				        </div>
-				      </div>
-				                  
-				    </div>
-				  </div>
-				</div>				
-			<!-- Cards -->
+					</div>  
+	      </div>
+	      
+	      <div class="col-md-4 mb-4">
+					<div class="card border-0 shadow-custom">
+
+					  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+					    <img class="card-img-top img-fluid lazyload" alt="Help Slide" src="images/objectives/help.jpg">
+					  </div>
+
+					  <div class="card-body">
+					    <h2 class="card-title py-2" style="font-weight: 900">Help</h2>
+					    <p class="card-text" style="height: 25vh">
+					     Help our customers map out a strategic blueprint for their companyʼs sustainable future.
+					    </p>
+					  </div>
+
+					</div>  
+	      </div>	
+
 		</div>
-
 	</div>
-
 </div>
 <!-- Corporate Objectives -->
 
 
 
-<!-- Service -->
-						<!-- Organizational Development Consultancy -->
-<div class="container-fluid d-flex pt-5 px-5 py-5 text-center" id="page-services" style="background-color: #F9FAF9;">
-	  <div class="col-sm text-center">
-	  	<b style="font-size: 35px; font-weight: 900; font-family: 'Sacramento', cursive;">
-	    	Services Offered</b><br>
-	    <b style="font-size: 35px; font-weight: 900;">
-	    Organizational Development Consultancy</b>
-	  </div>
-</div>
-	
-<div class="container-fluid justify-content-start px-5 pb-5 py-5" 
-	style="background-color: #F9FAF9;">
-	<div class="row text-center">
+<!-- Services -->
+<!-- Organizational Development Consultancy -->
+<div class="container-fluid py-5" id="page-services">
+	<div class="container d-flex py-5" style="color: #1D1D1F	">
+		<div class="row px-2 text-center d-flex justify-content-center align-items-center" >
 
-		<div class="col-sm text-center partners" style="display: flex; justify-content: center; align-items: center;">
-			<img style="width: 60vh; border-radius: 15px" alt="Organizational Development Consultancy" src="images/services/ODC.jpg" class="img-fluid lazyload shadow-custom">
+			<div class="text-center pb-5">
+		  	<b style="font-size: 35px; font-weight: 900; font-family: 'Sacramento', cursive;">
+		    	Services Offered</b><br>
+		    <b style="font-size: 35px; font-weight: 900;">
+		    Organizational Development Consultancy</b>
+	    </div>
+
+			<div class="col-md">								
+				<img style="width: 60vh; border-radius: 15px" alt="Organizational Development Consultancy" src="images/services/ODC.jpg" class="img-fluid lazyload shadow-custom">
+			</div>		
+
+			<div class="col-md pt-5 d-flex justify-content-center">
+				<p class="px-4 py-3 fs-5 text-start">
+					<b>Organizational Health Survey & Diagnostics
+					<br><br>
+					Strategic Goal Setting and Business Planning
+					<br>
+					</b>				
+					- Organizational Capacity building aligned with business goal
+					<br><br>
+					<b>
+					Management Structure and Succession Planning
+					</b>
+				</p>
+			</div>
+
 		</div>
-		
-		<div class="col-sm py-3 pb-3">
-
-			<p class="px-4 py-5 fs-5 text-start" style="background-color: rgba(235, 237, 235, 0.4); border-radius: 15px">
-				<b>Organizational Health Survey & Diagnostics
-				<br><br>
-				Strategic Goal Setting and Business Planning
-				<br>
-				</b>				
-				- Organizational Capacity building aligned with business goal
-				<br><br>
-				<b>
-				Management Structure and Succession Planning
-				</b>
-			</p>
-
-		</div>	
 	</div>
-</div>
-					<!-- Organizational Development Consultancy -->
+</div>					
+<!-- Organizational Development Consultancy -->
 
 
-					<!-- Training & Human Resource Development -->
-<div class="container-fluid d-flex pt-5 px-3" style="background-color: #ebedeb;">
-	  <div class="col-sm text-center py-4 pb-5">
-	    <b style="font-size: 35px; font-weight: 900" class="py-3">
-	    Training & Human Resource Development</b>
-	  </div>
+<div class="container">
+	<hr>
 </div>
 
 
-<div class="container-fluid justify-content-center px-5 pb-5" 
-			style="background-color: #ebedeb;">
+<!-- Training & Human Resource Development -->
+<div class="container-fluid py-5">
+	<div class="container d-flex py-5" style="color: #1D1D1F	">
+		<div class="row d-flex justify-content-center align-items-center" >
 
-	<div class="row px-3">
+			<div class="text-center pb-5">
+		    <b style="font-size: 35px; font-weight: 900;">
+		    Training & Human Resource Development</b>
+	    </div>
 
-		<div class="col-sm pt-5 pb-5">
-			<p class="px-3 py-5 fs-5" style="background-color: rgb(249, 250, 249, 0.4); 
-					border-radius: 15px;">
-				&nbsp;&nbsp;&nbsp;•  Training Needs Analysis
-				<br>
-				&nbsp;&nbsp;&nbsp;•  Training Plan & Deployment
-				<br>
-				&nbsp;&nbsp;&nbsp;•  Sourcing of Trainors internally & Externally
-				<br>
-				&nbsp;&nbsp;&nbsp;•  Post-training Analysis & Recommendations
-				<br>
-				&nbsp;&nbsp;&nbsp;•  Strategic Hiring of Key Personnel
-			</p>			
+			<div class="col-md d-flex justify-content-center">								
+				<p class="py-5 fs-5">
+					•  Training Needs Analysis
+					<br>
+					•  Training Plan & Deployment
+					<br>
+					•  Sourcing of Trainors internally & Externally
+					<br>
+					•  Post-training Analysis & Recommendations
+					<br>
+					•  Strategic Hiring of Key Personnel
+				</p>					
+			</div>		
+
+			<div class="col-md text-center d-flex justify-content-center">
+				<div id="demo" class="carousel slide carousel-dark" data-bs-ride="carousel">
+
+		      <!-- Indicators/Dots -->
+		      <div class="carousel-indicators">
+		          <ol class="carousel-indicators">
+		            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">	            	
+		            </button>
+
+		            <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+		          </ol>
+		      </div>
+		      <!-- Indicators/Dots -->					
+
+				  <!-- Image(s) Provided -->
+				  <div class="carousel-inner shadow-custom lazyload" style="width: 60vh; border-radius: 15px;">
+				    <!-- First Slide -->
+				    <div class="carousel-item active">
+				      <img class="img-fluid lazyload d-block w-100" src="images/powerpoint/training1.png" 
+				      alt="Training Figure" style="max-width: 100%; height: auto;">			      
+				    </div>
+
+				    <!-- Second Slide -->
+				    <div class="carousel-item">
+				      <img class="img-fluid lazyload d-block w-100" src="images/powerpoint/training2.png" 
+				      alt="Human Resource Development" style="max-width: 100%; height: auto;">
+				    </div>
+				  </div>
+				  
+				  <!-- Buttons -->
+				  <a class="carousel-control-prev" href="#demo" role="button" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only"></span>
+				  </a>
+
+				  <a class="carousel-control-next" href="#demo" role="button" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only"></span>
+				  </a>
+
+
+				</div>					
+			</div>
+
 		</div>
-
-		<!-- Image Carousel -->
-		<div class="col-sm px-5 py-4 text-center" style="text-align: justify; display: flex; justify-content: center; align-items: center">
-			<div id="demo" class="carousel slide carousel-dark slide text-center 
-			justify-content-center" data-bs-ride="carousel"
-			style="position: relative;
-  					 max-width: 130%;
-  					 display: flex; justify-content: center; align-items: center
-  					 ; height: auto;
-  					 ">
-
-	      <!-- Indicators/Dots -->
-	      <div class="carousel-indicators">
-	          <ol class="carousel-indicators">
-	            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-	            <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-	          </ol>
-	      </div>
-	      <!-- Indicators/Dots -->
-
-
-			  <!-- Image(s) Provided -->
-			  <div class="carousel-inner shadow-custom lazyload img-fluid" style="width: 65vh; border-radius: 15px;">
-			    <!-- First Slide -->
-			    <div class="carousel-item active">
-			      <img class="img-fluid lazyload" src="images/powerpoint/training1.png" 
-			      alt="Training Figure" style="max-width: 100%; height: auto;">			      
-			    </div>
-			    <!-- First Slide -->
-
-			    <!-- Second Slide -->
-			    <div class="carousel-item">
-			      <img class="img-fluid lazyload" src="images/powerpoint/training2.png" 
-			      alt="Human Resource Development" style="max-width: 100%; height: auto;">
-			    </div>
-			    <!-- Second Slide -->
-			  </div>
-			  <!-- Image(s) Provided -->
-
-			  <a class="carousel-control-prev" href="#demo" role="button" data-bs-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only"></span>
-			  </a>
-
-			  <a class="carousel-control-next" href="#demo" role="button" data-bs-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only"></span>
-			  </a>
-
-			</div>			
-		</div>	
-		<!-- Image Carousel -->	
 	</div>
+</div>	
+<!-- Training & Human Resource Development -->
+
+
+<div class="container">
+	<hr>
 </div>
-					<!-- Training & Human Resource Development -->
 
 
+<!-- Project Management: Build-Manage-TurnOver -->
+<div class="container-fluid py-5">
+	<div class="container d-flex py-5" style="color: #1D1D1F">
+		<div class="row d-flex justify-content-center align-items-center" >
 
-					<!-- Project Management: Build-Manage-TurnOver -->
-<div class="container-fluid d-flex pt-5 pb-5 px-5" style="background-color: #F9FAF9;">
+			<div class="text-center pb-5">
+		    <b style="font-size: 35px; font-weight: 900;">
+		    Project Management: Build-Manage-TurnOver</b>
+	    </div>
 
-	  <div class="col-sm text-center py-3">
-	    <b style="font-size: 35px; font-weight: 900;" class="text-center py-3"> Project Management: Build-Manage-TurnOver </b>
-	  </div>
+			<div class="col-md py-3 d-flex justify-content-center">								
+				<div id="demo1" class="carousel slide carousel-dark" data-bs-ride="carousel">
 
-</div>
-	
-<div class="container-fluid justify-content-start px-5 pb-5" 
-		style="background-color: #F9FAF9;">
-	<div class="row">
+		      <!-- Indicators/Dots -->
+		      <div class="carousel-indicators">
+		          <ol class="carousel-indicators">
+		            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">	            	
+		            </button>
 
-		<!-- Image Carousel -->
-		<div class="col-sm px-4 py-4 text-center" style="text-align: justify; display: flex; justify-content: center; align-items: center">
-			<div id="demo1" class="carousel slide carousel-dark slide text-center 
-			justify-content-center" data-bs-ride="carousel"
-			style="position: relative;
-  					 max-width: 130%;
-  					 display: flex; justify-content: center; align-items: center
-  					 ; height: auto;
-  					 ">
+		            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1" aria-label="Slide 1"></button>
 
-	      <!-- Indicators/Dots -->
-	      <div class="carousel-indicators">
-	          <ol class="carousel-indicators">
-	            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">	            	
-	            </button>
+		            <button type="button" data-bs-target="#demo1" data-bs-slide-to="2" aria-label="Slide 2"></button>
 
-	            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		          </ol>
+		      </div>
+		      <!-- Indicators/Dots -->					
 
-	            <button type="button" data-bs-target="#demo1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-	          </ol>
-	      </div>
-	      <!-- Indicators/Dots -->
+				  <!-- Image(s) Provided -->
+				  <div class="carousel-inner shadow-custom lazyload" style="width: 60vh; border-radius: 15px;">
+				    <!-- First Slide -->
+				    <div class="carousel-item active">
+				      <img class="img-fluid lazyload d-block w-100" src="images/powerpoint/projmgmnt1.jpg" 
+				      alt="Human Resource Development" style="max-width: 100%; height: auto;">
+				    </div>
+
+				    <!-- Second Slide -->
+				    <div class="carousel-item">
+				      <img class="img-fluid lazyload d-block w-100" src="images/powerpoint/projmgmnt2.jpg" 
+				      alt="Human Resource Development" style="max-width: 100%; height: auto;">
+				    </div>
+
+				    <div class="carousel-item">
+				      <img class="img-fluid lazyload d-block w-100" src="images/powerpoint/projmgmnt3.jpg" 
+				      alt="Human Resource Development" style="max-width: 100%; height: auto;">
+				    </div>
+				  </div>
+				  
+				  <!-- Buttons -->
+				  <a class="carousel-control-prev" href="#demo1" role="button" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only"></span>
+				  </a>
+
+				  <a class="carousel-control-next" href="#demo1" role="button" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only"></span>
+				  </a>
+
+				  <a class="carousel-control-next" href="#demo1" role="button" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only"></span>
+				  </a>
 
 
-			  <!-- Image(s) Provided -->
-			  <div class="carousel-inner shadow-custom img-fluid" style="width: 65vh; border-radius: 15px;">
-			    <!-- First Slide -->
-			    <div class="carousel-item active">
-			      <img class="img-fluid lazyload" src="images/powerpoint/projmgmnt1.jpg" 
-			      alt="Fist Slide" style="max-width: 100%; height: auto;">			      
-			    </div>
-			    <!-- First Slide -->
+				</div>					
+			</div>		
 
-			    <!-- Second Slide -->
-			    <div class="carousel-item">
-			      <img class="img-fluid lazyload" src="images/powerpoint/projmgmnt2.jpg" 
-			      alt="Second Slide" style="max-width: 100%; height: auto;">
-			    </div>
-			    <!-- Second Slide -->
+			<div class="col-md d-flex justify-content-center">
+				<p class="py-5 fs-5">
+					•  Analyze specific problems/projects management specifies
+					<br><br>
+					•  Build a project plan designed to achieve set corporate goals
+					<br><br>
+					•  Sourcing of Trainors internally and externally
+					<br><br>
+					•  Manage the execution of approved project plans and assist in recruiting and training managers for specific functions in managing the project
+					<br><br>
+					•  Turn-over management of the project to specified company managers
+				</p>									
+			</div>
 
-			    <!-- Third Slide -->
-			    <div class="carousel-item">
-			      <img class="img-fluid lazyload" src="images/powerpoint/projmgmnt3.jpg" 
-			      alt="Second Slide" style="max-width: 100%; height: auto;">
-			    </div>			    
-			   	<!-- Third Slide -->
-			  </div>
-			  <!-- Image(s) Provided -->
-
-			  <a class="carousel-control-prev" href="#demo1" role="button" data-bs-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only"></span>
-			  </a>
-
-			  <a class="carousel-control-next" href="#demo1" role="button" data-bs-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only"></span>
-			  </a>
-
-			  <a class="carousel-control-next" href="#demo1" role="button" data-bs-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only"></span>
-			  </a>			  
-
-			</div>			
-		</div>	
-		<!-- Image Carousel -->	
-		
-		<div class="col-sm pt-5 pb-4 py-5" style="align-items: center; display: flex;">
-			
-			<p class="fs-5 px-4 py-5" style="background-color: rgba(235, 237, 235, 0.4); border-radius: 15px">
-				•  Analyze specific problems/projects management specifies
-				<br><br>
-				•  Build a project plan designed to achieve set corporate goals
-				<br><br>
-				•  Sourcing of Trainors internally and externally
-				<br><br>
-				•  Manage the execution of approved project plans and assist in recruiting and training managers for specific functions in managing the project
-				<br><br>
-				•  Turn-over management of the project to specified company managers
-			</p>
-
-		</div>	
-
+		</div>
 	</div>
-</div>
-				<!-- Project Management: Build-Manage-TurnOver -->
-<!-- Service -->
+</div>	
+<!-- Project Management: Build-Manage-TurnOver -->
+<!-- Services -->
 
+
+<div class="container">
+	<hr>
+</div>
+  
 
 <!-- Extra -->
-				<!-- Our Pool of Consultants -->
-<div class="container-fluid d-flex pt-5 px-4" id="page-extra" 
-		style="background-color: #ebedeb;">
+<!-- Our Pool of Consultants -->
+<div class="container-fluid py-5" id="page-extra">
+	<div class="container d-flex py-5 " style="color: #F5F5F7">
 
-	  <div class="col-sm text-center pt-5">
-	  	<img src="images/pool.svg" class="img-fluid lazyload" alt="Our Pool of Consultants" style="width: 8vh">
-	  		<br>	   
-	    <b style="font-size: 35px; font-weight: 900;" class="py-3"> Our Pool of Consultants </b>
-	  </div>
-
-</div>
-
-<div class="container-fluid justify-content-center px-4 pb-5 pt-3" 
-			style="background-color: #EBEDEB; padding-bottom: 55px;">
-	<div class="row">		
-
-		<div class="col-sm pt-4 pb-5 text-center px-5">
-			<p class="fs-5 px-3 py-5" style="background-color: rgb(249, 250, 249, 0.4); 
-					border-radius: 15px">
-				We have a pool of former top company executives and managers from the Top 100 Corporations of the Philippines who are considered experts in their respective fields of discipline, from general management, sales and marketing, supply chain management, finance, customer experience management, and other management sciences
+    <div class="p-5 mb-4 rounded-4" style="background-color: #595460">
+      <div class="container-fluid py-5">
+      	<img src="images/verified.svg" class="img-fluid py-3 lazyload" alt="Our Pool of Consultants" style="width: 8vh">      	
+        <h1 class="display-6 py-3 fw-bold">Our Pool of Consultants</h1>
+        
+        <p class="col-md fs-5">
+        We have a pool of former top company executives and managers from the Top 100 Corporations of the Philippines who are considered experts in their respective fields of discipline, from general management, sales and marketing, supply chain management, finance, customer experience management, and other management sciences
 				<br><br>
-				Depending on the clientʼs concerns and budget, we can deploy any number of these consultants as necessary to achieve the desired results of the engagement.
-			</p>
-		</div>	
-	</div>
-</div>
-				<!-- Our Pool of Consultants -->
+				Depending on the clientʼs concerns and budget, we can deploy any number of these consultants as necessary to achieve the desired results of the engagement.</p>
+
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Our Pool of Consultants -->
 
 
 
-				<!-- Our Approach -->
-<div class="container-fluid d-flex pt-5 px-5 justify-content-center" 
-	style="background-color: #f9faf9;">
+<!-- Our Approach -->
+<div class="container-fluid pleasant py-5">
+	<div class="container d-flex py-5" style="color: #1D1D1F	">
+		<div class="row px-2 text-center d-flex justify-content-center align-items-center" >
 
-	<div class="row px-5 py-5">
-	  <div class="col-sm par">
-	    <b style="font-size: 35px; font-weight: 900;" class="py-3">
-	    Our Approach</b>
-	  </div>
-	</div>
+			<div class="text-center pb-5">
+		    <b style="font-size: 35px; font-weight: 900;">
+		    Our Approach</b>
+	    </div>
 
-</div>
-	
-<div class="container-fluid justify-content-start px-4 pb-5" style="background-color: #f9faf9;">
-	<div class="row px-3 pb-5">
-
-		<div class="col-sm text-center partners" style="display: flex; justify-content: center; align-items: center;">
-			<img style="width: 50vh; border-radius: 15px;" src="images/powerpoint/approach.jpg" 
+			<div class="col-md">								
+				<img style="width: 50vh; border-radius: 15px;" src="images/powerpoint/approach.jpg" 
 			class="img-fluid shadow-custom lazyload" alt="Roy">
+			</div>		
+
+			<div class="col-md pt-5 d-flex justify-content-center">
+				<p class="px-4 py-3 fs-5 text-start">
+					<b>We take a practical approach in solving concerns and implementing projects using techniques that are innovative yet cautious, disruptive yet tried and tested, and give due respect to new and traditional ways of doing business.</b>
+					<br><br>
+					•  Clarify Management Objectives
+					<br>
+					•  Analyze data
+					<br>
+					•  Create Options & do cost-benefit analysis 
+					<br>
+					•  Design Implementation Plan
+					<br>
+					•  Measure Results
+				</p>
+			</div>
+
 		</div>
-		
-		<div class="col-sm px-5 pt-5"  style="background-color: rgba(235, 237, 235, 0.4); border-radius: 15px;">
-
-			<p class="px-3 py-4 fs-5">
-				<b>We take a practical approach in solving concerns and implementing projects using techniques that are innovative yet cautious, disruptive yet tried and tested, and give due respect to new and traditional ways of doing business.</b>
-				<br>
-				•  Clarify Management Objectives
-				<br>
-				•  Analyze data
-				<br>
-				•  Create Options & do cost-benefit analysis 
-				<br>
-				•  Design Implementation Plan
-				<br>
-				•  Measure Results
-			</p>			
-
-		</div>	
-
 	</div>
-</div>
-				<!-- Our Approach -->
+</div>	
+<!-- Our Approach -->
 <!-- Extra -->
 
 
 <!-- Partners -->
-<div class="container-fluid d-flex pt-5 px-3 text-center" id="page-partners" style="background-color: #ebedeb;">
-	  <div class="col-sm text-center">
-	    <b style="font-size: 35px; font-weight: 900;" class="hover-1 py-3">
-	    Our Partners</b>
-	  </div>
-</div>
+<div class="container-fluid py-5" id="page-partners">
+	<div class="container d-flex py-5" style="color: #1D1D1F	">
+		<div class="row px-2 d-flex justify-content-center align-items-center" >
 
-<!-- Ramiro “ROY” Cruz - President -->
-<div class="container-fluid justify-content-center" style="background-color: #ebedeb;">
+			<div class="text-center pb-5">
+		    <b style="font-size: 35px; font-weight: 900;">
+		    Our Partners</b>
+	    </div>    	
 
-		<!-- Name -->
-		<div class="col-sm px-5 py-4">
-			<h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
+			<div class="text-start pb-5 titos">
+		    <h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
 				<span class="line">Ramiro “ROY” Cruz
 				<br>President</span>				
 			</h4>
-		</div>
-		<!-- Name -->		
+	    </div>
 
+			<div class="col-md text-center">								
+				<img src="images/partners/roy.PNG" alt="ROy" class="img-fluid lazyload shadow-custom" style="border-radius: 10px; width: 45vh;">
+			</div>		
 
-	<div class="row">
-		<!-- Picture -->
-		<div class="col-sm px-5 py-4">
-				<div class="col-sm px-5 text-center titos">
-					<img src="images/partners/roy.PNG" alt="ROy" class="img-fluid lazyload shadow-custom" style="border-radius: 10px; width: 45vh;">
-				</div>						
-			</div>
-			<!-- Picture -->		
-
-		<!-- Credentials -->
-		<div class="col-sm px-5" style="display: flex; justify-content: center; align-items: center;">			
-				<h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
-				<br>
-				<p class="fs-6 px-4 py-3" >
+			<div class="col-md pt-5 d-flex justify-content-center">
+				<p class="fs-6 px-4 py-3" style="font-weight: 600; font-family: 'Raleway', sans-serif;">
 				•  Managing Director and Senior Partner – Oti Philippines Inc.				
 				<br>
 				• Former Vice President and Managing Director, Asia Pacific – Dole Asia Company Ltd.
@@ -742,81 +685,75 @@
 				<br>
 				<code>&nbsp;&nbsp;</code> - Handled projects in the USA, China, Australia and the Phils.
 				</p>
-			</h4>						
-		</div>
-		<!-- Credentials -->
+			</div>
 
 		<!-- Partnerships of Roy -->
 		<div class="row py-3">
-			<div class="col-sm">
-				<!-- First Row -->
-				<div class="row" style="display: flex; justify-content: center; align-items: center;">
+			<div class="container pt-5">
+				<div class="col-sm">
+					<!-- First Row -->
+					<div class="row d-flex justify-content-center align-items-center">
 
-					<!-- OTI Philippines -->
-					<div class="col-6 col-sm-4 col-md-2 px-1 py-3 text-center partners">				
-						<img src="images/partners/roy/oti.png" style="border-radius: 15px; width: 16vh;" class="lazyload img-fluid">
-					</div>			
-					<!-- OTI Philippines -->
+						<!-- OTI Philippines -->
+						<div class="col-6 col-md-4 col-md-2 px-1 py-3 text-center partners">				
+							<img src="images/partners/roy/oti.png" style="border-radius: 15px; width: 16vh;" class="lazyload img-fluid">
+						</div>			
 
-					<!-- DOLE -->
-					<div class="col-6 col-sm-4 col-md-2 px-1 py-3 text-center partners">				
-						<img src="images/partners/roy/dole.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>	
-					<!-- DOLE -->
+						<!-- DOLE -->
+						<div class="col-6 col-md-4 col-md-2 px-1 py-3 text-center partners">				
+							<img src="images/partners/roy/dole.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+						</div>	
 
-					<!-- Kraft -->
-					<div class="col-6 col-sm-4 col-md-2 px-1 py-3 text-center partners">				
-						<img src="images/partners/roy/kraft.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>		
-					<!-- Kraft -->
+						<!-- Kraft -->
+						<div class="col-6 col-md-4 col-md-2 px-1 py-3 text-center partners">				
+							<img src="images/partners/roy/kraft.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+						</div>	
 
-					<!-- Citi -->
-					<div class="col-6 col-sm-4 col-md-2 px-1 py-3 text-center partners">				
-						<img src="images/partners/roy/citi.png" style="width: 15vh;" class="lazyload img-fluid">
-					</div>	
-					<!-- Citi -->
+						<!-- Citi -->
+						<div class="col-6 col-md-4 col-md-2 px-1 py-3 text-center partners">				
+							<img src="images/partners/roy/citi.png" style="width: 15vh;" class="lazyload img-fluid">
+						</div>	
 
-					<!-- Unilever -->
-					<div class="col-6 col-sm-4 col-md-2 px-1 py-3 text-center partners">				
-						<img src="images/partners/roy/unilever.png" style="width: 17vh;" class="lazyload img-fluid">
-					</div>				
-					<!-- Unilever -->
+						<!-- Unilever -->
+						<div class="col-6 col-md-4 col-md-2 px-1 py-3 text-center partners">				
+							<img src="images/partners/roy/unilever.png" style="width: 17vh;" class="lazyload img-fluid">
+						</div>				
 
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Partnership of Roy -->
-</div>
-</div>
+		<!-- Partnership of Roy -->			
+
+		</div>
+	</div>
+</div>	
 <!-- Ramiro “ROY” Cruz - President -->
 
 
+<div class="container">
+	<hr>
+</div>
+
+
 <!-- Reuben “BENG” Pangan -->
-<div class="container-fluid justify-content-center py-5 pb-5" style="background-color: #f9faf9;">
+<div class="container-fluid py-5">
+	<div class="container d-flex py-5" style="color: #1D1D1F	">
+		<div class="row px-2 d-flex justify-content-center align-items-center" > 	
 
-		<!-- Name -->
-		<div class="col-sm px-5 py-4">
-			<h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">			
+			<div class="text-start pb-5">
+		    <h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
 				<span class="line">Reuben “BENG” Pangan
-				<br>Managing Director / Principal Consultant</span>				
+				<br>Managing Director / Principal Consultant</span>					
 			</h4>
-		</div>
-		<!-- Name -->
+	    </div>
 
-	<div class="row pb-5">
-		<!-- Picture -->
-		<div class="col-sm px-5 py-4">		
-			<div class="col-sm px-5  text-center titos">
+			<div class="col-md text-center titos">								
 				<img src="images/partners/beng.PNG" class="img-fluid lazyload shadow-custom" style="border-radius: 10px; width: 45vh;">
-			</div>			
-		</div>
-		<!-- Picture -->		
+			</div>		
 
-		<!-- Credentials -->
-		<div class="col-sm px-5" style="display: flex; justify-content: center; align-items: center;">
-			<h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
-				<br>
-				<p class="fs-6 px-4 py-3" >
+			<div class="col-md pt-5 d-flex justify-content-center">
+				<p class="fs-6 px-4 py-3" style="font-weight: 600; font-family: 'Raleway', sans-serif;">
 				•  Senior Professional Lecturer - De La Salle University
 				<br>
 				• Senior Consultant - Mindbroker Inc.
@@ -857,151 +794,129 @@
 				<br>
 				<code>&nbsp;&nbsp;</code> • Set up the BOC-CARES Hotline (02) 8705-6000
 				<br>
-
 				</p>
-			</h4>			
-		</div>
-		<!-- Credentials -->
-
-
-		<!-- Partnerships of Beng -->
-		<div class="row px-5 py-5">
-			<div class="col-sm">
-				<!-- First Row -->
-				<div class="row" style="display: flex; justify-content: center; align-items: center;">
-
-					<!-- DLSU -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">					
-						<img src="images/partners/beng/dlsu.png" style="border-radius: 15px; width: 15vh;" class="lazyload img-fluid">
-					</div>			
-					<!-- DLSU -->
-
-					<!-- Globe -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">					
-						<img src="images/partners/beng/globe.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>			
-					<!-- Globe -->
-
-					<!-- Sun -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">					
-						<img src="images/partners/beng/sun.png" style="border-radius: 15px; width: 15vh;" class="lazyload img-fluid">
-					</div>	
-					<!-- Sun -->
-
-					<!-- Smart -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">
-						<img src="images/partners/beng/smart.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>		
-					<!-- Smart -->
-
-				</div>
-				<!-- First Row -->
-			</div>					
-		</div>
-
-		<div class="row px-5">
-			<div class="col-sm">
-				<!-- Second Row -->
-				<div class="row" style="display: flex; justify-content: center; align-items: center;">			
-
-					<!-- Air22 -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">					
-						<img src="images/partners/beng/air22.png" style="border-radius: 0px; width: 10vh; mix-blend-mode: multiply; filter: contrast(1.2) brightness(1.1);" class="lazyload">
-					</div>					
-					<!-- Air22 -->
-
-					<!-- FedEx -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/fedex.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>		
-					<!-- FedEx -->
-
-					<!-- Air 21 -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/air21.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>				
-					<!-- Air 21 -->
-
-					<!-- Lina -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/lina.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>	
-					<!-- Lina -->			
-
-				</div>
-				<!-- Second Row -->
-			</div>	
-		</div>
-
-		<div class="row px-5">
-			<div class="col-sm">
-				<!-- Third Row -->
-				<div class="row" style="display: flex; justify-content: center; align-items: center;">
-
-					<!-- DOF -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/dof.png" style="border-radius: 15px; width: 15vh;" class="lazyload img-fluid">
-					</div>	
-					<!-- DOF -->
-
-					<!-- Mindbroker -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/mindbroker.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>		
-					<!-- Mindbroker -->
-
-					<!-- Probinsya -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/probinsya.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>		
-					<!-- Probinsya -->
-
-					<!-- Shopinas -->
-					<div class="col-sm-3 col-6 px-3 py-3 text-center partners">						
-						<img src="images/partners/beng/shopinas.jpg" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
-					</div>			
-					<!-- Shopinas -->		
-
-				</div>
-				<!-- Third Row -->
 			</div>
-		</div>
-		<!-- Partnership of Beng -->
 
+			<!-- Partnerships of Beng -->
+			<div class="row px-5 py-5">
+				<div class="container pt-5">
+					<div class="col-md">
+						<!-- First Row -->
+						<div class="row d-flex justify-content-center align-items-center">
+
+							<!-- DLSU -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">					
+								<img src="images/partners/beng/dlsu.png" style="border-radius: 15px; width: 15vh;" class="lazyload img-fluid">
+							</div>			
+
+							<!-- Globe -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">					
+								<img src="images/partners/beng/globe.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>			
+
+							<!-- Sun -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">					
+								<img src="images/partners/beng/sun.png" style="border-radius: 15px; width: 15vh;" class="lazyload img-fluid">
+							</div>	
+
+							<!-- Smart -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">
+								<img src="images/partners/beng/smart.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>		
+
+						</div>
+					</div>					
+				</div>
+
+				<div class="row px-5">
+					<div class="col-md">
+						<!-- Second Row -->
+						<div class="row d-flex justify-content-center align-items-center">			
+
+							<!-- Air22 -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">					
+								<img src="images/partners/beng/air22.png" style="border-radius: 0px; width: 10vh; mix-blend-mode: multiply; filter: contrast(1.2) brightness(1.1);" class="lazyload">
+							</div>					
+
+							<!-- FedEx -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/fedex.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>		
+
+							<!-- Air 21 -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/air21.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>				
+
+							<!-- Lina -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/lina.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>		
+
+						</div>
+					</div>	
+				</div>
+
+				<div class="row px-5">
+					<div class="col-md">
+						<!-- Third Row -->
+						<div class="row d-flex justify-content-center align-items-center">
+
+							<!-- DOF -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/dof.png" style="border-radius: 15px; width: 15vh;" class="lazyload img-fluid">
+							</div>	
+
+							<!-- Mindbroker -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/mindbroker.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>		
+
+							<!-- Probinsya -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/probinsya.png" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>		
+
+							<!-- Shopinas -->
+							<div class="col-md-3 col-6 px-3 py-3 text-center partners">						
+								<img src="images/partners/beng/shopinas.jpg" style="border-radius: 15px; width: 18vh;" class="lazyload img-fluid">
+							</div>				
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Partnership of Beng -->		
+
+		</div>
 	</div>
-</div>
+</div>	
 <!-- Reuben “BENG” Pangan -->
+
+<div class="container">
+	<hr>
+</div>
 
 
 
 <!-- Noel Casanova -->
-<div class="container-fluid justify-content-center px-3 py-5 pb-5" style="background-color: #ebedeb;">
+<div class="container-fluid py-5">
+	<div class="container d-flex py-5" style="color: #1D1D1F	">
+		<div class="row px-2 d-flex justify-content-center align-items-center" > 	
 
-		<!-- Name -->
-		<div class="col-sm px-5 py-4">
-			<h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
+			<div class="text-start pb-5">
+		    <h4 class="fs-4 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
 				<span class="line">Noel Casanova
-				<br>Chief Financial Officer</span>
+				<br>Chief Financial Officer</span>			
 			</h4>
-		</div>
-		<!-- Name -->
+	    </div>
 
-
-	<div class="row">
-		<!-- Picture -->
-		<div class="col-sm px-5 py-4">
-			<div class="col-sm px-5 pt-5 text-center titos">
+			<div class="col-md text-center titos">								
 				<img src="images/partners/noel.jpg" style="border-radius: 10px; width: 45vh;" class="img-fluid lazyload">
-			</div>			
-		</div>
-		<!-- Picture -->
+			</div>		
 
-		<!-- Credentials -->
-		<div class="col-sm px-5" style="display: flex; justify-content: center; align-items: center;">
-			<h4 class="fs-5 py-3" style="font-weight: 900; font-family: 'Raleway', sans-serif;">
-				<br>
-				<p class="fs-6 px-4 py-3" >
-				<br>
+			<div class="col-md pt-5 d-flex justify-content-center">
+				<p class="fs-6 px-4 py-3" style="font-weight: 600; font-family: 'Raleway', sans-serif;">
 				Associate partner - OTI Philippines Inc.
 				<br>
 				Relevant corporate experience:
@@ -1016,200 +931,221 @@
 				<br>
 				• 	Internal Auditor - First Pacific Metro Inc.				
 				</p>
-			</h4>			
-		</div>
-
-		<!-- Partnerships of Noel -->
-		<div class="row px-5 py-3">
-			<div class="col-sm">
-				<!-- First Row -->
-				<div class="row" style="display: flex; justify-content: center; align-items: center;">
-
-					<!-- Quantum -->
-					<div class="col-6 col-sm-4 col-md-2 px-3 py-3 text-center partners">				
-						<img src="images/partners/noel/quantum.png" style="border-radius: 5px; width: 15vh;" class="img-fluid lazyload">
-					</div>		
-					<!-- Quantum -->
-
-					<!-- Dole -->
-					<div class="col-6 col-sm-4 col-md-2 px-3 py-3 text-center partners">				
-						<img src="images/partners/noel/dole.png" style="border-radius: 15px; width: 20vh;" class="img-fluid lazyload">
-					</div>	
-					<!-- Dole -->
-
-					<!-- OTI Philippines -->
-					<div class="col-6 col-sm-4 col-md-2 px-3 py-3 text-center partners">				
-						<img src="images/partners/noel/oti.png" style="border-radius: 15px; width: 18vh;" class="img-fluid lazyload">
-					</div>			
-					<!-- OTI Philippines -->			
-
-					<!-- First Pacific -->
-					<div class="col-6 col-sm-4 col-md-2 px-3 py-3 text-center partners">				
-						<img src="images/partners/noel/first.png" style="border-radius: 10px; width: 15vh;" class="img-fluid lazyload">
-					</div>					
-					<!-- First Pacific -->
-
-					<!-- FPH -->
-					<div class="col-6 col-sm-4 col-md-2 px-3 py-3 text-center partners">				
-						<img src="images/partners/noel/fph.png" style="border-radius: 15px; width: 20vh;" class="img-fluid lazyload">
-					</div>		
-					<!-- FPH -->
-
-				</div>
-				<!-- First Row -->
 			</div>
-		</div>
-		<!-- Partnership of Noel -->
 
+			<!-- Partnerships of Noel -->
+			<div class="row px-5 py-5">
+				<div class="container pt-5">
+					<div class="col-md">
+						<!-- First Row -->
+						<div class="row" style="display: flex; justify-content: center; align-items: center;">
+
+							<!-- Quantum -->
+							<div class="col-6 col-md-4 col-md-2 px-3 py-3 text-center partners">				
+								<img src="images/partners/noel/quantum.png" style="border-radius: 5px; width: 15vh;" class="img-fluid lazyload">
+							</div>		
+
+							<!-- Dole -->
+							<div class="col-6 col-md-4 col-md-2 px-3 py-3 text-center partners">				
+								<img src="images/partners/noel/dole.png" style="border-radius: 15px; width: 20vh;" class="img-fluid lazyload">
+							</div>	
+
+							<!-- OTI Philippines -->
+							<div class="col-6 col-md-4 col-md-2 px-3 py-3 text-center partners">				
+								<img src="images/partners/noel/oti.png" style="border-radius: 15px; width: 18vh;" class="img-fluid lazyload">
+							</div>			
+
+							<!-- First Pacific -->
+							<div class="col-6 col-md-4 col-md-2 px-3 py-3 text-center partners">				
+								<img src="images/partners/noel/first.png" style="border-radius: 10px; width: 15vh;" class="img-fluid lazyload">
+							</div>					
+
+							<!-- FPH -->
+							<div class="col-6 col-md-4 col-md-2 px-3 py-3 text-center partners">				
+								<img src="images/partners/noel/fph.png" style="border-radius: 15px; width: 20vh;" class="img-fluid lazyload">
+							</div>		
+
+						</div>
+					</div>					
+				</div>
+			</div>
+			<!-- Partnership of Noel -->		
+
+		</div>
 	</div>
-</div>
+</div>	
 <!-- Noel Casanova -->
 <!-- Our Partners -->
 
 
-<!-- Summary ? -->
-<div class="container-fluid justify-content-start px-3 pt-5 py-5" style="background-color: #f9faf9">
-	<div class="row px-3 py-3">
-
-		<div class="col-sm text-center pt-5">
-			<img style="width: 30vh" src="images/favicon.png" class="img-fluid lazyload"
-			style="
-
-			  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-			  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));			
-
-			">
-		</div>
-		
-		<div class="col-sm pt-5 pb-3">			
-			<p class="fs-5 text-center py-5 px-4" style="text-align: justify; background-color: rgba(235, 237, 235, 0.4); border-radius: 15px">
-				<b style="font-weight: 900;">
-				CLEAR PATH CONSULTANCY INTERNATIONAL INC. </b> <br> partners and consultants will treat your company and your objectives as our own and will focus on producing results within agreed timelines and financial parameters. We believe in long-term business relationships and treat your success as ours as well.				
-			</p>
-		</div>	
-
-	</div>
+<div class="container">
+	<hr>
 </div>
-<!-- Summary ? -->
 
+
+<!-- Summary ? -->
+<div class="container-fluid py-5" id="page-extra">
+	<div class="container d-flex py-5 " style="color: #1D1D1F">
+
+    <div class="p-5 mb-4 rounded-4" style="background-color: #97a7b8">
+      <div class="container-fluid py-5">
+      	<img style="width: 15vh" src="images/favicon.png" class="img-fluid py-3 lazyload">  	
+        <h1 class="display-6 py-3 fw-bold">CLEAR PATH CONSULTANCY INTERNATIONAL INC.</h1>
+        
+        <p class="col-md fs-5">
+        partners and consultants will treat your company and your objectives as our own and will focus on producing results within agreed timelines and financial parameters. We believe in long-term business relationships and treat your success as ours as well.
+
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Summary ? -->
 
 <!-- Contact Information -->
-<section class="container-fluid justify-content-center px-5 pt-5 pb-5 py-5 text-white" id="page-contacts" 
+<div class="container-fluid py-3" id="page-contacts" 
 			style="background-image:url('images/mapcontact.png');
-					background-color: #212529;
-  				background-size: cover;
-  				background-position: center;
-					background-repeat: no-repeat;
-			">
+						 background-color: #1D1D1F;
+	  				 background-size: cover;
+	  				 background-position: center;
+						 background-repeat: no-repeat;
+				">
+	<section class="container justify-content-center px-5 py-5 text-white">
 
-				<div class="py-3 text-center">
-					<h2 class="text-uppercase section-heading" style="font-weight: 900">Contact Us</h2>     
-				</div>
+					<div class="py-3 text-center">
+						<h2 class="text-uppercase section-heading" style="font-weight: 900">Contact Us</h2>     
+					</div>
 
-				<!-- Google Maps -->
-				<div class="row px-3">
-					<!-- Address / Location -->
-					<div class="col-sm py-3">
-						<div class="text-center">
-							<img src="images/map.svg" style="width: 10vh" class="img-fluid lazyload">
-	        		<br>
-	        		<b class="fs-3">Office Addresses</b>
+					<!-- Google Maps -->
+					<div class="row px-3">
+						<!-- Address / Location -->
+						<div class="col-md py-3">
+							<div class="text-center py-3">
+								<img src="images/map.svg" style="width: 10vh" class="img-fluid lazyload">
+		        		<br>
+		        		<b class="fs-3">Office Addresses</b>
+	        		</div>
+	        		
+	        		<!-- Manila, Philippines -->
+	    				<h4>Manila, Philippines</h4>
+	      			<a class="fs-5" href="https://goo.gl/maps/2XrA5jBikKWGtT3n8" style="color: white; text-decoration: none;">
+	      			60 Aratiles Rd. Ayala Westgrove Heights, Silang, Cavite, Philippines 4118
+	      			</a>	        			
+
 	        		<br><br>
-        		</div>
-        		
-        		<!-- Manila, Philippines -->
-    				<h4>Manila, Philippines</h4>
-      			<a class="fs-5" href="https://goo.gl/maps/2XrA5jBikKWGtT3n8" style="color: white; text-decoration: none;">
-      			60 Aratiles Rd. Ayala Westgrove Heights, Silang, Cavite, Philippines 4118
-      			</a>	        			
-        		<!-- Manila, Philippines -->
 
-        		<br><br>
+	        		<!-- Sydney, Australia -->
+	    				<h4>Sydney, Australia</h4>
+	      			<a class="fs-5" href="https://goo.gl/maps/VejcgXYekVa9JAci6" style="color: white; text-decoration: none;">
+	      			Unit 8, 61 Liverpool Street, Paddington, Sydney, NSW, 2021, Australia
+	      			</a>
 
-        		<!-- Sydney, Australia -->
-    				<h4>Sydney, Australia</h4>
-      			<a class="fs-5" href="https://goo.gl/maps/VejcgXYekVa9JAci6" style="color: white; text-decoration: none;">
-      			Unit 8, 61 Liverpool Street, Paddington, Sydney, NSW, 2021, Australia
-      			</a>
-        		<!-- Sydney, Australia -->
+	        		<br><br>
 
-        		<br><br>
+	        		<!-- New York, United States -->
+	    				<h4>New York, United States</h4>
+	      			<a class="fs-5" href="https://goo.gl/maps/ckiW55wK8WccezWD8" style="color: white; text-decoration: none;">
+	      			611 Walton Ave. Bronx, NY 10451
+	      			</a>		
 
-        		<!-- New York, United States -->
-    				<h4>New York, United States</h4>
-      			<a class="fs-5" href="https://goo.gl/maps/ckiW55wK8WccezWD8" style="color: white; text-decoration: none;">
-      			611 Walton Ave. Bronx, NY 10451
-      			</a>		
-        		<!-- New York, United States -->    		
+						</div>
 
 					</div>
-					<!-- Address / Location -->
-
-				</div>
-				<!-- Google Maps -->
+					<!-- Google Maps -->
 
 
-        <div class="row px-3">
-        	<!-- Email -->
-        	<div class="col-sm py-5 pt-5 text-center">
-        		<img src="images/email.svg" style="width: 10vh" class="img-fluid lazyload">
-        		<br>
-        		<b class="fs-5">Email</b>
-        		<address>
-        			<a class="fs-5" href="mailto:rpangan.cpci@gmail.com" style="color: white; text-decoration: none;">
-        			rpangan.cpci@gmail.com</a>
-        		</address>
-        	</div>
-        	<!-- Email -->
-
-        	<!-- Download Reference Material -->
-        	<div class="col-sm py-5 pt-5 text-center">
-        		<img src="images/download.svg" style="width: 10vh" class="img-fluid lazyload">
-        		<br>
-        		<b class="fs-5">Company Profile</b>
-        		<br>
-        		<address>        		
-	        		<button type="button" 
-
-	        		onclick="openNewTab()"
-
-	        		class="btn btn-outline-light btn-sm fs-5 w-75">Download</button>
-	        	</address>
-        	</div>        	
-        	<!-- Download Reference Material -->
-
-        	<!-- Contact -->
-        	<div class="col-sm py-5 pt-5 text-center">
-        		<img src="images/call.svg" style="width: 10vh" class="img-fluid lazyload">
-        		<br>
-        		<b class="fs-5">Call</b>
-        			<br>
-        			<address>        			
-	        			<a href="tel:+639175888075" class="fs-5" style="color: white; text-decoration: none;">
-	        			+(63) 9175 888075 (Viber)</a>
-	        			<br>
-	        			<a href="tel:+639229222020" class="fs-5" style="color: white; text-decoration: none;">
-	        			+(63) 9229 222020</a>
+	        <div class="row px-3">
+	        	<!-- Email -->
+	        	<div class="col-md py-5 pt-5 text-center">
+	        		<img src="images/email.svg" style="width: 10vh" class="img-fluid lazyload">
+	        		<br>
+	        		<b class="fs-5">Email</b>
+	        		<address class="py-2">
+	        			<a class="fs-5" href="mailto:rpangan.cpci@gmail.com" style="color: white; text-decoration: none;">
+	        			rpangan.cpci@gmail.com</a>
 	        		</address>
-        	</div>        	
-        	<!-- Contact -->
-        </div>
+	        	</div>
+	        	<!-- Email -->
 
-</section>
+	        	<!-- Download Reference Material -->
+	        	<div class="col-sm py-5 pt-5 text-center">
+	        		<img src="images/download.svg" style="width: 10vh" class="img-fluid lazyload">
+	        		<br>
+	        		<b class="fs-5">Company Profile</b>
+	        		<br>
+	        		<address class="py-2">        		
+		        		<button type="button" 
+
+		        		onclick="openNewTab()"
+
+		        		class="btn btn-outline-light btn-sm fs-5 w-100">Download</button>
+		        	</address>
+	        	</div>        	
+	        	<!-- Download Reference Material -->
+
+	        	<!-- Contact -->
+	        	<div class="col-md py-5 pt-5 text-center">
+	        		<img src="images/call.svg" style="width: 10vh" class="img-fluid lazyload">
+	        		<br>
+	        		<b class="fs-5">Call</b>
+	        			<br>
+	        			<address class="py-2">        			
+		        			<a href="tel:+639175888075" class="fs-5" style="color: white; text-decoration: none;">
+		        			+(63) 9175 888075 (Viber)</a>
+		        			<br>
+		        			<a href="tel:+639229222020" class="fs-5" style="color: white; text-decoration: none;">
+		        			+(63) 9229 222020</a>
+		        		</address>
+	        	</div>        	
+	        	<!-- Contact -->
+	        </div>
+
+	</section>
+</div>
 
 <!-- Contact Information -->
+
 
 
 <!-- Footer -->
-<footer class="footer">
-	<div class="container-fluid text-white text-center p-4 justify-content-between bg-dark">
+<div class="container-fluid py-5" style="background-color: #1D1D1F; color: #F5F5F7;">
+	<footer>
 
-		<img src="images/favicon.png" alt="Logo" class="py-3" style="width:10vh;">	
+		<div class="container">
+			<hr class="hr-primary">
+		</div>
 
-		<p>© 2023 Clear Path Consulatancy International Inc. 
-			<br>All Rights Reserved.</p>
-	</div>
-</footer>
+	  <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+
+	    <p class="col-md-4 mb-0" style="color: #F5F5F7;">© 2023 Clear Path Consultancy International Inc. </p>
+
+	    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+	      <img src="images/favicon.png" alt="Logo" class="py-3 img-fluid" style="width:8vh;">
+	    </a>
+
+	    <ul class="nav col-md-4 justify-content-end">
+	      <li class="nav-item"><a class="nav-link px-2 text-light" 
+	      	href="#page-home">Home</a></li>
+
+	      <li class="nav-item"><a class="nav-link px-2 text-light" 
+	      	href="#page-objectives">Objectives</a></li>
+
+	      <li class="nav-item"><a class="nav-link px-2 text-light" 
+	      	href="#page-services">Services</a></li>
+
+	      <li class="nav-item"><a class="nav-link px-2 text-light" 
+	      	href="#page-extra">Extra</a></li>
+
+	      <li class="nav-item"><a class="nav-link px-2 text-light" 
+	      	href="#page-partners">Partners</a></li>
+
+	      <li class="nav-item"><a class="nav-link px-2 text-light" 
+	      	href="#page-contacts">Contact</a></li>
+	    </ul>
+
+	  </div>
+
+	</footer>
+</div>
 <!-- Footer -->
 
 
